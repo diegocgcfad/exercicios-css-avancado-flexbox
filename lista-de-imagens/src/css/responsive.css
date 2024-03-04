@@ -1,0 +1,15 @@
+@media(max-width:1366px){
+    .paints {
+        max-width: 1000px;
+        margin: 10px 0;
+    }
+}
+
+@media(max-width: 315px){
+    .paint{
+        align-items: flex-start;
+        padding: 10px;
+        margin-bottom: 10px;
+        width: 98%;
+    }
+}

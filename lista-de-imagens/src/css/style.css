@@ -1,0 +1,67 @@
+@font-face {
+    font-family: public-sans;
+    src: url(../fonts/PublicSans-VariableFont_wght.ttf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: public-sans, sans-serif;
+    color: #fff;
+}
+
+.main {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.paints {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.paint {
+    width: 335px;
+    height: 432px;
+    display: flex;
+    align-items: flex-end;
+    padding: 45px 25px;
+}
+
+.paint:nth-child(1) {
+    background: url('../images/rome.png') no-repeat;
+    background-size: contain;
+}
+
+.paint:nth-child(2) {
+    background: url('../images/boat.png') no-repeat;
+    background-size: contain;
+}
+
+.paint:nth-child(3) {
+    background: url('../images/sand-and-sea.png') no-repeat;
+    background-size: contain;
+}
+
+.paint:nth-child(4) {
+    background: url('../images/starry-night.png') no-repeat;
+    background-size: contain;
+}
+
+.author h1 {
+    font-size: 3rem;
+}
+
+.author p {
+    font-size: 1.7rem;
+    font-weight: 300;
+}

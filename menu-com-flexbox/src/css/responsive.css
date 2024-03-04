@@ -1,0 +1,32 @@
+@media(max-width: 800px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header .logo h1 {
+        font-size: 40px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin-top: 100px;
+    }
+
+    .menu li a {
+        font-size: 40px;
+        padding: 17px 40px;
+    }
+
+    .menu .register {
+        font-size: 18px;
+        text-wrap: nowrap;
+        padding: 15px 23px;
+    }
+
+    .main {
+        height: calc(100vh - 719px);
+    }
+}

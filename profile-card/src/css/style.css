@@ -1,0 +1,54 @@
+* {
+    font-size: 23px;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 375px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0;
+}
+
+.container img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.container span {
+    opacity: 0.6;
+}
+
+.container h2 {
+    opacity: 0.5;
+}
+
+.container .statistics {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid rgba(0,0,0,0.2);
+    padding-top: 40px;
+}
+
+.container .numbers {
+    text-align: center;
+    flex: 0 0100px;
+}
+
